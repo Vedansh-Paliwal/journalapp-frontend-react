@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from './Login.module.css'
 
 
-const URL = "http://localhost:8080/public/login";
+const URL = "https://journal-app-backend-soa3.onrender.com/public/login";
 
 
 export const Login = ({onSwitch, onLoginSuccess}) => {

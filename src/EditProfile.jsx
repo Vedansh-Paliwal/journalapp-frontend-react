@@ -1,7 +1,7 @@
 import styles from './EditProfile.module.css'
 import { useState, useEffect} from 'react';
 
-const URL = "http://localhost:8080/user"
+const URL = "https://journal-app-backend-soa3.onrender.com/user"
 
 export const EditProfile = ({onLogout}) => {
     const [username,setUsername] = useState("");
@@ -15,7 +15,7 @@ export const EditProfile = ({onLogout}) => {
             try {
                 const token = localStorage.getItem("token");
                 
-                const response = await fetch("http://localhost:8080/user", {
+                const response = await fetch(URL, {
                     method: "GET",
                     headers: {
                         "Authorization": `Bearer ${token}`

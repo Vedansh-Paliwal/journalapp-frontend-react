@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from './Login.module.css'
 
-const URL = "http://localhost:8080/public/signup";
+const URL = "https://journal-app-backend-soa3.onrender.com/public/signup";
 
 export const Signup = ({onSwitch}) => {
     const [credentials, setCredentials] = useState({

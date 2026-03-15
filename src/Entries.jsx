@@ -1,7 +1,7 @@
 import styles from './Entries.module.css'
 import { useEffect, useState } from 'react';
 
-const URL = "http://localhost:8080/journal";
+const URL = "https://journal-app-backend-soa3.onrender.com/journal";
 
 export const Entries = ({ onLogout, onEdit }) => {
     const [entries, setEntries] = useState([]);

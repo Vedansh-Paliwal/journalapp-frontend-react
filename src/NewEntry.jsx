@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from './NewEntry.module.css'
 
-const URL = "http://localhost:8080/journal"
+const URL = "https://journal-app-backend-soa3.onrender.com/journal";
 
 export const NewEntry = ({ onSuccess, onLogout, initialData }) => {
     const isEditMode = !!initialData;
