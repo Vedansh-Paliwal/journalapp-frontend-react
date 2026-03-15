@@ -1,0 +1,52 @@
+.entries {
+    padding: 16px;
+}
+.heading {
+    color: white;
+    margin-bottom: 20px;
+}
+.entry {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.buttonRow {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.updateBtn {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.updateBtn:hover {
+    background-color: #008454;
+}
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: rgb(190, 0, 0);
+}
+.date {
+    font-size: 0.8rem;
+    color: gray;
+}
+.emptyMessage {
+    color: white;
+    margin-top: 20px;
+}
